@@ -1,3 +1,3 @@
-SELECT DISTINCT City
-FROM Station
-WHERE Id % 2 = 0;
+SELECT DISTINCT city
+  FROM station
+ WHERE MOD(id,2) = 0;
